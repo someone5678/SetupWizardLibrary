@@ -56,9 +56,9 @@ public class NavigationBar extends LinearLayout implements View.OnClickListener 
             new int[] {
               R.attr.suwNavBarTheme, android.R.attr.colorForeground, android.R.attr.colorBackground
             });
-    @StyleableRes int suwNavBarTheme = 0;
-    @StyleableRes int colorForeground = 1;
-    @StyleableRes int colorBackground = 2;
+    int suwNavBarTheme = 0;
+    int colorForeground = 1;
+    int colorBackground = 2;
     int theme = attributes.getResourceId(suwNavBarTheme, 0);
     if (theme == 0) {
       // Compare the value of the foreground against the background color to see if current
